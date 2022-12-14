@@ -1,0 +1,8 @@
+rnaseq = input("enter RNA sequence:")
+print(rnaseq)
+seq1=rnaseq.replace('A','T')
+seq2=seq1.replace('U','A')
+seq3=seq2.replace('G','+')
+seq4=seq3.replace('C','G')
+seq5=seq4.replace('+','C')
+print(seq5)
